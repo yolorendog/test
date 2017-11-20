@@ -11,8 +11,9 @@
     <div class="tab">
       <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
       <button class="tablinks" onclick="openCity(event, 'Charts')">Charts</button>
-      <button class="tablinks" onclick="openCity(event, 'About')">About</button>
       <button class="tablinks" onclick="openCity(event, 'About')">Artists</button>
+      <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+      
     </div>
     
     <div id="Home" class="tabcontent">
@@ -27,13 +28,7 @@
       <h3>Charts</h3>
       <p>This Is The Charts Right Now.</p> 
     </div>
-    
-    <div id="About" class="tabcontent">
-      <span onclick="this.parentElement.style.display='none'" class="topright"></span>
-      <h3>About</h3>
-      <p>I Designed This Website For An App I Am About To Make This Website Has A Lot Of Other Functions Such As It The Current Chats.</p>
-    </div>
-    
+
     <div id="Artists" class="tabcontent">
         <span onclick="this.parentElement.style.display='none'" class="topright"></span>
         <h3>Artist</h3>
@@ -41,6 +36,14 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Calvin_Harris_-_Rock_in_Rio_Madrid_2012_-_09.jpg"/>
             <ul></p>
       </div>
+      
+    <div id="About" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+      <h3>About</h3>
+      <p>I Designed This Website For An App I Am About To Make This Website Has A Lot Of Other Functions Such As It The Current Chats.</p>
+    </div>
+    
+    
 
     <script>
     function openCity(evt, cityName) {
